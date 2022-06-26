@@ -85,7 +85,7 @@
       <workItem from="1656137910215" duration="3000" />
       <workItem from="1656175689057" duration="6992000" />
       <workItem from="1656197630845" duration="7025000" />
-      <workItem from="1656204717221" duration="37000" />
+      <workItem from="1656204717221" duration="635000" />
     </task>
     <task id="LOCAL-00001" summary="to merge with main">
       <created>1656131727310</created>
@@ -115,7 +115,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656204544454</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="all chapters with a few bugs&#10;– answer correction has a bug for &quot;N&quot;.casefold()&#10;– Question 2 in Chapter7 has a broken while loop&#10;– Question 2 in Chapter10 has a broken while loop&#10;– Taking individuals chapters crashes because of commented out for both questionsd above&#10;– Question 1 in Chapter 13 has no solution or question&#10;– and more to review">
+      <created>1656204760898</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656204760898</updated>
+    </task>
+    <task id="LOCAL-00006" summary="all chapters with a few bugs&#10;– answer correction has a bug for &quot;N&quot;.casefold()&#10;– Question 2 in Chapter7 has a broken while loop&#10;– Question 2 in Chapter10 has a broken while loop&#10;– Taking individuals chapters crashes because of commented out for both questionsd above&#10;– Question 1 in Chapter 13 has no solution or question&#10;– and more to review">
+      <created>1656204999687</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656204999687</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
