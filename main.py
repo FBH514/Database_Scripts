@@ -184,7 +184,7 @@ class Main:
     @staticmethod
     def user_input(question):
         while True:
-            user_input = input(question)
+            user_input = input(question).casefold()
             if len(user_input) > 0:
                 return user_input
             else:
@@ -197,7 +197,8 @@ class Main:
         self.template.beautify(20)
         exam = []
         while True:
-            if self.user_input("Do you want a fixed length mock exam? Y/N ––> ").casefold() == "Y".casefold():
+            style = self.user_input("Do you want a fixed length mock exam? Y/N ––> ")
+            if style == "Y".casefold():
                 print("You have chosen to take a fixed length mock exam")
                 questions = self.user_input("How many questions do you want to answer? --> ")
                 if questions.isdigit():
@@ -213,13 +214,16 @@ class Main:
                 else:
                     continue
 
-            else:
+            elif style == "N".casefold():
                 chapter = self.user_input("Enter the chapter number you want to take ––> ")
                 if chapter.isdigit():
                     return int(chapter) - 1
                 else:
-                    print("Invalid input")
+                    print("Chapter must be an integer")
                     continue
+
+            else:
+                continue
 
     # run the program
     def main(self):
@@ -245,7 +249,7 @@ class Main:
 
             # get the user input + check if it is correct
             while True:
-                if self.user_input("\nEnter your answer ––> ") in item.solution.casefold():
+                if self.user_input("\nEnter your answer ––> ").casefold() in item.solution.casefold():
                     print("\n")
                     self.grade_count += 1
                     item.grade(self.grade_count)
@@ -265,12 +269,12 @@ class Main:
 
                     # manual correction in case of typo or wrong solution
                     while True:
-                        correction = self.user_input("\nDo you want to manually correct your answer? Y/N ––> ")
-                        if correction.casefold() == "Y".casefold() or correction.casefold() == "Yes".casefold():
+                        correction = self.user_input("\nDo you want to manually correct your answer? Y/N ––> ").casefold()
+                        if correction == "Y".casefold() or correction == "Yes".casefold():
                             print(f"{self.template.compliments()} | +1 towards your grade")
                             self.grade_count += 1
                             item.grade(self.grade_count)
-                        elif correction.casefold() == "N".casefold() or correction.casefold() == "No".casefold():
+                        elif correction == "N".casefold() or correction == "No".casefold():
                             print("No correction needed")
                         else:
                             print("Invalid input")
@@ -287,12 +291,12 @@ class Main:
 
         # asks user if they want to take a new exam
         while True:
-            run_again = self.user_input("Do you want to run the program again? Y/N ––> ")
-            if run_again.casefold() == "Y".casefold() or run_again.casefold() == "Yes".casefold():
+            run_again = self.user_input("Do you want to run the program again? Y/N ––> ").casefold()
+            if run_again == "Y".casefold() or run_again == "Yes".casefold():
                 self.question_count = 0
                 self.grade_count = 0
                 self.main()
-            elif run_again.casefold() == "N".casefold() or run_again.casefold() == "No".casefold():
+            elif run_again == "N".casefold() or run_again == "No".casefold():
                 print("** Ending Program **")
                 break
             else:

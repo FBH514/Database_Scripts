@@ -70,7 +70,7 @@ class Question_4(Chapter_6):
         self.chapter = 6
         self.chapter_name = "Normalization of Database Tables"
         self.numQuestions = 7
-        self.question = "Name the dependency is one in which an attribute is functionally dependent on another non-key attribute."
+        self.question = "Name the dependency in which an attribute is functionally dependent on another non-key attribute."
         self.solution = "Transitive Dependency"
         self.description = "A transitive dependency is one in which an attribute is functionally dependent on another non-key attribute."
 

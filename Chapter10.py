@@ -39,7 +39,7 @@ class Question_1(Chapter_10):
         self.chapter = 10
         self.chapter_name = "Transaction Management and Concurrency Control"
         self.numQuestions = 13
-        self.question = "What do you call a sequence of database operations that access the database?"
+        self.question = "What do you call a sequence of database operations that accesses the database?"
         self.solution = "Transaction"
         self.description = "A transaction is a sequence of database operations that access the database. A trans- action is a logical unit of work; that is, all parts are executed or the transaction is aborted. A transaction takes a database from one consistent state to another. A consistent database state is one in which all data integrity constraints are satisfied."
 
