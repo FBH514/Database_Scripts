@@ -262,23 +262,23 @@ class Main:
                     print("\n")
                     print(self.template.invalid_answer())
                     self.template.beautify(20)
+
+                    # manual correction in case of typo or wrong solution
+                    while True:
+                        correction = self.user_input("\nDo you want to manually correct your answer? Y/N ––> ")
+                        if correction.casefold() == "Y".casefold() or correction.casefold() == "Yes".casefold():
+                            print(f"{self.template.compliments()} | +1 towards your grade")
+                            self.grade_count += 1
+                            item.grade(self.grade_count)
+                        elif correction.casefold() == "N".casefold() or correction.casefold() == "No".casefold():
+                            print("No correction needed")
+                        else:
+                            print("Invalid input")
+                            continue
+                        break
                 break
 
-            # manual correction in case of typo or wrong solution
-            while True:
-                correction = self.user_input("\nDo you want to manually correct your answer? Y/N ––> ")
-                if correction.casefold() == "Y".casefold() or correction.casefold() == "Yes".casefold():
-                    print(f"{self.template.compliments()} | +1 towards your grade")
-                    self.grade_count += 1
-                    item.grade(self.grade_count)
-                elif correction.casefold() == "N".casefold() or correction.casefold() == "No".casefold():
-                    print("No correction needed")
-                else:
-                    print("Invalid input")
-                    continue
-                break
-
-            self.template.beautify(len("No correction needed"))
+            # self.template.beautify(len("No correction needed"))
 
         item.numQuestions = self.question_count  # resets the final number of questions
         print(f"\nYou scored {self.grade_count}/{len(target)} ––> {item.grade(self.grade_count)}")
