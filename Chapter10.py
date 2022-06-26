@@ -43,32 +43,17 @@ class Question_1(Chapter_10):
         self.solution = "Transaction"
         self.description = "A transaction is a sequence of database operations that access the database. A trans- action is a logical unit of work; that is, all parts are executed or the transaction is aborted. A transaction takes a database from one consistent state to another. A consistent database state is one in which all data integrity constraints are satisfied."
 
-# class Question_2(Chapter_10):
-#
-#     def __init__(self):
-#         super().__init__()
-#         self.numQ = 2
-#         self.chapter = 10
-#         self.chapter_name = "Transaction Management and Concurrency Control"
-#         self.numQuestions = 13
-#         self.question = ""
-#
-#         properties = ["Atomicity", "Consistency", "Isolation", "Durability"]
-#
-#         count = len(properties)
-#         while True:
-#             if count != 0:
-#                 user_input = input(f"{self.question}\n{count} data types left ––> ")
-#                 self.solution = user_input.casefold()
-#                 if user_input.casefold() not in properties:
-#                     print("Invalid Answer")
-#                 else:
-#                     print(self.compliments())
-#                 properties.remove(user_input)
-#                 count -= 1
-#             break
-#
-#         self.description = ""
+class Question_2(Chapter_10):
+
+    def __init__(self):
+        super().__init__()
+        self.numQ = 2
+        self.chapter = 10
+        self.chapter_name = "Transaction Management and Concurrency Control"
+        self.numQuestions = 13
+        self.question = "Name one of the four properties are sometimes referred to as the ACID test."
+        self.solution = ["Atomicity", "Consistency", "Isolation", "Durability"]
+        self.description = "Each individual transaction must display atomicity, consistency, isolation, and durability. These four properties are sometimes referred to as the ACID test."
 
 class Question_3(Chapter_10):
 

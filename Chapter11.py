@@ -62,7 +62,7 @@ class Question_3(Chapter_11):
         self.numQuestions = 9
         self.question = "What are crucial in the process that speeds up data access?"
         self.solution = "Indexes"
-        self.description = "Indexes are crucial in the process that speeds up data access. Indexes facilitate search- ing, sorting, and using aggregate functions and join operations. The improvement in data access speed occurs because an index is an ordered set of values that contains the index key and pointers. Data sparsity refers to the number of different values a column could have. Indexes are recommended in high-sparsity columns used in search conditions."
+        self.description = "Indexes are crucial in the process that speeds up data access. Indexes facilitate searching, sorting, and using aggregate functions and join operations. The improvement in data access speed occurs because an index is an ordered set of values that contains the index key and pointers. Data sparsity refers to the number of different values a column could have. Indexes are recommended in high-sparsity columns used in search conditions."
 
 class Question_4(Chapter_11):
 

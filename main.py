@@ -104,7 +104,7 @@ class Main:
                           Chapter6.Question_6(),
                           Chapter6.Question_7(),
                           Chapter7.Question_1(),
-                          # Chapter7.Question_2(),
+                          Chapter7.Question_2(),
                           Chapter7.Question_3(),
                           Chapter7.Question_4(),
                           Chapter7.Question_5(),
@@ -128,7 +128,7 @@ class Main:
                           Chapter9.Question_2(),
                           Chapter9.Question_3(),
                           Chapter10.Question_1(),
-                          # Chapter10.Question_2(),
+                          Chapter10.Question_2(),
                           Chapter10.Question_3(),
                           Chapter10.Question_4(),
                           Chapter10.Question_5(),
@@ -157,7 +157,7 @@ class Main:
                           Chapter12.Question_6(),
                           Chapter12.Question_7(),
                           Chapter12.Question_8(),
-                          # Chapter13.Question_1(),
+                          Chapter13.Question_1(),
                           Chapter13.Question_2(),
                           Chapter13.Question_3(),
                           Chapter13.Question_4(),
@@ -197,7 +197,7 @@ class Main:
         self.template.beautify(20)
         exam = []
         while True:
-            if self.user_input("Do you want a fixed length mock exam? Y/N ––> ") == "Y".casefold():
+            if self.user_input("Do you want a fixed length mock exam? Y/N ––> ").casefold() == "Y".casefold():
                 print("You have chosen to take a fixed length mock exam")
                 questions = self.user_input("How many questions do you want to answer? --> ")
                 if questions.isdigit():
@@ -208,8 +208,10 @@ class Main:
                             exam.append(self.questions[item])
                         return exam
                     else:
-                        print("Invalid input")
+                        print("The exam length is invalid –– {} questions are available".format(len(self.questions)))
                         continue
+                else:
+                    continue
 
             else:
                 chapter = self.user_input("Enter the chapter number you want to take ––> ")
@@ -265,11 +267,11 @@ class Main:
             # manual correction in case of typo or wrong solution
             while True:
                 correction = self.user_input("\nDo you want to manually correct your answer? Y/N ––> ")
-                if correction == "Y".casefold() or correction == "Yes".casefold():
+                if correction.casefold() == "Y".casefold() or correction.casefold() == "Yes".casefold():
                     print(f"{self.template.compliments()} | +1 towards your grade")
                     self.grade_count += 1
                     item.grade(self.grade_count)
-                elif correction == "N".casefold() or correction == "No".casefold():
+                elif correction.casefold() == "N".casefold() or correction.casefold() == "No".casefold():
                     print("No correction needed")
                 else:
                     print("Invalid input")
@@ -285,11 +287,11 @@ class Main:
         # asks user if they want to take a new exam
         while True:
             run_again = self.user_input("Do you want to run the program again? Y/N ––> ")
-            if run_again == "Y".casefold() or run_again == "Yes".casefold():
+            if run_again.casefold() == "Y".casefold() or run_again.casefold() == "Yes".casefold():
                 self.question_count = 0
                 self.grade_count = 0
                 self.main()
-            elif run_again == "N".casefold() or run_again == "No".casefold():
+            elif run_again.casefold() == "N".casefold() or run_again.casefold() == "No".casefold():
                 print("** Ending Program **")
                 break
 

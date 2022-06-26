@@ -27,51 +27,17 @@ class Chapter_13(Template):
         shuffle(question_list)
         return question_list
 
-    # def main(self):
-    #     count = 0
-    #     for item in self.return_questions():
-    #         print()
-    #         print(f"Question {item.numQ}, chapter {self.chapter}\n{item.question}")
-    #         self.beautify(15)
-    #         answer = input("Enter your answer ––> ")
-    #         print(f"Solution to Question {item.numQ}, chapter {self.chapter} ––> {item.solution} ")
-    #
-    #         if answer in item.solution.casefold():
-    #             count += 1
-    #             self.grade(count)
-    #             print(self.compliments())
-    #         else:
-    #             print(self.invalid_answer())
-    #         self.beautify(15)
-    #         print(f"More info about {item.solution}\n{item.description}")
-    #         self.beautify(25)
-    #         print()
-    #
-    #         correction = input("Do you need to manually correct your answer? Y/N ––>")
-    #
-    #         if correction == "Y".casefold() or correction == "Yes".casefold():
-    #             print(self.compliments())
-    #             self.grade(count)
-    #         else:
-    #             continue
-    #
-    #     print()
-    #     self.beautify(5)
-    #     print(f"You scored {count}/{self.numQuestions} ––> {self.grade(count)}")
-    #     self.beautify(35)
+class Question_1(Chapter_13):
 
-
-# class Question_1(Chapter_13):
-#
-#     def __init__(self):
-#         super().__init__()
-#         self.numQ = 1
-#         self.chapter = 13
-#         self.chapter_name = "Business Intelligence and Data Warehouses"
-#         self.numQuestions = 8
-#         self.question = ""
-#         self.solution = ""
-#         self.description = "Business intelligence (BI) is a term for a comprehensive, cohesive, and integrated set of applications used to capture, collect, integrate, store, and analyze data with the purpose of generating and presenting information to support business decision making."
+    def __init__(self):
+        super().__init__()
+        self.numQ = 1
+        self.chapter = 13
+        self.chapter_name = "Business Intelligence and Data Warehouses"
+        self.numQuestions = 8
+        self.question = "What describes a comprehensive, cohesive, and integrated set of tools and processes used to capture, collect, integrate, store, and analyze data with the purpose of generating and presenting information to support business decision making?"
+        self.solution = "Business Intelligence"
+        self.description = "Business intelligence (BI) is a term for a comprehensive, cohesive, and integrated set of applications used to capture, collect, integrate, store, and analyze data with the purpose of generating and presenting information to support business decision making."
 
 class Question_2(Chapter_13):
 

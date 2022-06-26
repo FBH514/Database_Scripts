@@ -42,32 +42,16 @@ class Question_1(Chapter_7):
         self.solution = "SQL Commands"
         self.description = "Data Definition Language (DDL) and Data Manipulation Language (DML) together forms a Database Language. The basic difference between DDL and DML is that DDL (Data Definition Language) is used to Specify the database schema database structure.\n\nOn the other hand, DML (Data Manipulation Language) is used to access, modify or retrieve the data from the database."
 
-# class Question_2(Chapter_7):
-#
-#     def __init__(self):
-#         super().__init__()
-#         self.numQ = 2
-#         self.chapter = 7
-#         self.chapter_name = "Introduction to SQL"
-#         self.numQuestions = 11
-#         self.question = "What are the ANSI standard data types?"
-#
-#         data_types = ["NUMBER", "NUMERIC", "INTEGER", "CHAR", "VARCHAR", "DATE"]
-#
-#         count = len(data_types)
-#         while True:
-#             if count != 0:
-#                 user_input = input(f"{self.question}\n{count} data types left ––> ")
-#                 self.solution = user_input.casefold()
-#                 if user_input.casefold() not in data_types:
-#                     print("Invalid Answer")
-#                 else:
-#                     print(self.compliments())
-#                 data_types.remove(user_input)
-#                 count -= 1
-#             break
-#
-#         self.description = "The ANSI standard data types are supported by all RDBMS vendors in different ways. The basic data types are NUMBER, NUMERIC, INTEGER, CHAR, VARCHAR, and DATE."
+class Question_2(Chapter_7):
+
+    def __init__(self):
+        super().__init__()
+        self.numQ = 2
+        self.chapter = 7
+        self.chapter_name = "Introduction to SQL"
+        self.numQuestions = 11
+        self.solution = ["NUMBER", "NUMERIC", "INTEGER", "CHAR", "VARCHAR", "DATE"]
+        self.question = "Name one of the {} ANSI standard data types.".format(len(self.solution))
 
 class Question_3(Chapter_7):
 
