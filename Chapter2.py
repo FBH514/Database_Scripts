@@ -127,7 +127,7 @@ class Question_8(Chapter_2):
         self.chapter = 2
         self.chapter_name = "Data Models"
         self.numQuestions = 8
-        self.question = "What are a brief, precise and unambiguous description of a policy, procedure or principle within a specific organization?"
+        self.question = "What are brief, precise and unambiguous descriptions of a policy, procedure or principle within a specific organization?"
         self.solution = "Business Rules"
         self.description = "Business rules derived from a detailed description of an organization's operations help to create and enforce actions within that organization's environment. Business rules must be rendered in writing and updated to reflect any change in the organization's operational environment."
 

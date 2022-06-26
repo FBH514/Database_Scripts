@@ -135,7 +135,7 @@ class Question_9(Chapter_8):
         self.numQuestions = 10
         self.question = "What is a named collection of SQL statements?"
         self.solution = "Stored Procedure"
-        self.description = "Just like database triggers, stored procedures are stored in the database. One of the major advantages of stored procedures is that they can be used to encapsulate and represent complete business trans- actions. Use of stored procedures substantially reduces network traffic and increases system performance."
+        self.description = "Just like database triggers, stored procedures are stored in the database. One of the major advantages of stored procedures is that they can be used to encapsulate and represent complete business transactions. Use of stored procedures substantially reduces network traffic and increases system performance."
 
 class Question_10(Chapter_8):
 
@@ -145,7 +145,7 @@ class Question_10(Chapter_8):
         self.chapter = 8
         self.chapter_name = "Advanced SQL"
         self.numQuestions = 10
-        self.question = "What refers to the use of SQL statements within an application program- ming language such as Visual Basic .NET, C#, COBOL, or Java?"
+        self.question = "What refers to the use of SQL statements within an application programming language such as Visual Basic .NET, C#, COBOL, or Java?"
         self.solution = "Embedded SQL"
         self.description = "Embedded SQL refers to the use of SQL statements within an application program- ming language such as Visual Basic .NET, C#, COBOL, or Java. The language in which the SQL statements are embedded is called the host language. Embedded SQL is still the most common approach to maintaining procedural capabilities in DBMS- based applications."
 

@@ -295,6 +295,9 @@ class Main:
             elif run_again.casefold() == "N".casefold() or run_again.casefold() == "No".casefold():
                 print("** Ending Program **")
                 break
+            else:
+                print("Invalid input")
+                continue
         print("\n")
 
 

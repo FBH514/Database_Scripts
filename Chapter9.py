@@ -30,7 +30,7 @@ class Question_1(Chapter_9):
         self.chapter = 9
         self.chapter_name = "Database Design"
         self.numQuestions = 3
-        self.question = "What is the process that establishes the need for an information system and its extent. Systems development is the process of creating an information system?"
+        self.question = "What is the process that establishes the need for an information system and its extent?"
         self.solution = "Systems analysis"
         self.description = "Systems analysis is the process that establishes the need for an information system and its extent. Systems development is the process of creating an information system."
 
@@ -43,7 +43,7 @@ class Question_2(Chapter_9):
         self.chapter_name = "Database Design"
         self.numQuestions = 3
         self.question = "What traces the history of an application within the information system?"
-        self.solution = "SDLC"
+        self.solution = "Systems Development Life Cycle | SDLC"
         self.description = "The Systems Development Life Cycle (SDLC) traces the history of an application within the information system. The SDLC can be divided into five phases: planning, analysis, detailed systems design, implementation, and maintenance. The SDLC is an iterative process rather than a sequential process."
 
 class Question_3(Chapter_9):
@@ -55,7 +55,7 @@ class Question_3(Chapter_9):
         self.chapter_name = "Database Design"
         self.numQuestions = 3
         self.question = "What describes the history of the database within the information system?"
-        self.solution = "DBLC"
+        self.solution = "Database Life Cycle | DBLC"
         self.description = "The Database Life Cycle (DBLC) describes the history of the database within the information system. The DBLC is composed of six phases: database initial study, database design, implementation and loading, testing and evaluation, operation, and maintenance and evolution. Like the SDLC, the DBLC is iterative rather than sequential."
 #
 # class Question_4(Chapter_9):

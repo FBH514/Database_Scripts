@@ -60,8 +60,8 @@ class Question_3(Chapter_13):
         self.chapter_name = "Business Intelligence and Data Warehouses"
         self.numQuestions = 8
         self.question = "What is a data-modeling technique used to map multidimensional decision support data into a relational database for advanced data analysis?"
-        self.solution = "star schema"
-        self.description = "The star schema is a data-modeling technique used to map multidimensional deci- sion support data into a relational database for advanced data analysis. The basic star schema has four components: facts, dimensions, attributes, and attribute hierarchies. Facts are numeric measurements or values that represent a specific business aspect or activity. Dimensions are general qualifying categories that provide additional perspectives to facts. Conceptually, the multidimensional data model is best represented by a three-dimensional cube. Attributes can be ordered in well-defined hierarchies, which provide a top-down organization that is used for two main purposes: to permit aggregation and provide drill-down and roll-up data analysis."
+        self.solution = "Star Schema"
+        self.description = "The star schema is a data-modeling technique used to map multidimensional decision support data into a relational database for advanced data analysis. The basic star schema has four components: facts, dimensions, attributes, and attribute hierarchies. Facts are numeric measurements or values that represent a specific business aspect or activity. Dimensions are general qualifying categories that provide additional perspectives to facts. Conceptually, the multidimensional data model is best represented by a three-dimensional cube. Attributes can be ordered in well-defined hierarchies, which provide a top-down organization that is used for two main purposes: to permit aggregation and provide drill-down and roll-up data analysis."
 
 class Question_4(Chapter_13):
 
@@ -121,7 +121,7 @@ class Question_8(Chapter_13):
         self.numQuestions = 8
         self.question = "What automates the analysis of operational data to find previously unknown data characteristics, relationships, dependencies, and trends?"
         self.solution = "Data mining"
-        self.description = "Data mining automates the analysis of operational data to find previously unknown data characteristics, relationships, dependencies, and trends. The data-mining pro- cess has four phases: data preparation, data analysis and classification, knowledge acquisition, and prognosis."
+        self.description = "Data mining automates the analysis of operational data to find previously unknown data characteristics, relationships, dependencies, and trends. The data-mining process has four phases: data preparation, data analysis and classification, knowledge acquisition, and prognosis."
 
 # class Question_9(Chapter_13):
 #

@@ -89,7 +89,7 @@ class Question_5(Chapter_7):
         self.numQuestions = 11
         self.question = "What returns the matching rows as well as the rows with unmatched attribute values for one table or both tables to be joined?"
         self.solution = "Outer Join"
-        self.description = ""
+        self.description = "Outer Join is a type of join that returns the matching rows as well as the rows with unmatched attribute values for one table or both tables to be joined."
 
 class Question_6(Chapter_7):
 
@@ -135,7 +135,8 @@ class Question_9(Chapter_7):
         self.chapter = 7
         self.chapter_name = "Introduction to SQL"
         self.numQuestions = 11
-        self.question = "Name what are usually used in conjunction with the GROUP BY clause to group the output of aggregate computations by one or more attributes."
+        self.question = "What are commonly used in conjunction with the GROUP BY clause to group the output of computations by one or more attributes?" \
+                        ""
         self.solution = "Aggregate Functions"
         self.description = "Aggregate functions (COUNT, MIN, MAX, and AVG) are special functions that per- form arithmetic computations over a set of rows. The aggregate functions are usually used in conjunction with the GROUP BY clause to group the output of aggregate computations by one or more attributes. The HAVING clause is used to restrict the output of the GROUP BY clause by selecting only the aggregate rows that match a given condition."
 
