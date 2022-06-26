@@ -51,8 +51,8 @@ class Question_2(Chapter_10):
         self.chapter = 10
         self.chapter_name = "Transaction Management and Concurrency Control"
         self.numQuestions = 13
-        self.question = "Name one of the four properties are sometimes referred to as the ACID test."
-        self.solution = ["Atomicity", "Consistency", "Isolation", "Durability"]
+        self.question = "Name the test where each individual transaction displays the same 4 properties."
+        self.solution = "ACID test"
         self.description = "Each individual transaction must display atomicity, consistency, isolation, and durability. These four properties are sometimes referred to as the ACID test."
 
 class Question_3(Chapter_10):

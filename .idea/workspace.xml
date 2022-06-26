@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7805fd1f-150f-458b-91bc-ff1ee96dd7de" name="Changes" comment="all chapters with a few bugs&#10;single chapter or mock exam mode stable">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter13.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter13.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter8.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter9.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter9.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="7805fd1f-150f-458b-91bc-ff1ee96dd7de" name="Changes" comment="all chapters with a few bugs&#10;single chapter or mock exam mode stable" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +86,7 @@
       <workItem from="1656137910215" duration="3000" />
       <workItem from="1656175689057" duration="6992000" />
       <workItem from="1656197630845" duration="7025000" />
-      <workItem from="1656204717221" duration="19804000" />
+      <workItem from="1656204717221" duration="20500000" />
     </task>
     <task id="LOCAL-00001" summary="to merge with main">
       <created>1656131727310</created>
@@ -166,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656266698069</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="all chapters with a few bugs&#10;single chapter or mock exam mode stable">
+      <created>1656273860576</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1656273860576</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +191,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="all chapters with a few bugs&#10;single chapter or mock exam mode stable" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Database_Class__py_Scripts$main.coverage" NAME="main Coverage Results" MODIFIED="1656273418910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Database_Class__py_Scripts$main.coverage" NAME="main Coverage Results" MODIFIED="1656274744225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
