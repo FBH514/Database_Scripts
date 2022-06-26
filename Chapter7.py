@@ -50,8 +50,9 @@ class Question_2(Chapter_7):
         self.chapter = 7
         self.chapter_name = "Introduction to SQL"
         self.numQuestions = 11
-        self.solution = ["NUMBER", "NUMERIC", "INTEGER", "CHAR", "VARCHAR", "DATE"]
-        self.question = "Name one of the {} ANSI standard data types.".format(len(self.solution))
+        self.solution = "Data Types"
+        self.question = "What is a specification about the kinds of data that can be stored in an attribute?"
+        self.description = "Data Types are the specifications about the kinds of data that can be stored in an attribute."
 
 class Question_3(Chapter_7):
 
@@ -98,7 +99,7 @@ class Question_6(Chapter_7):
         self.chapter = 7
         self.chapter_name = "Introduction to SQL"
         self.numQuestions = 11
-        self.question = "Name returns all rows with matching values in the matching columns and eliminates duplicate columns."
+        self.question = "Name the join returning all rows with matching values in the matching columns and eliminates duplicate columns."
         self.solution = "Natural Join"
         self.description = "A natural join returns all rows with matching values in the matching columns and eliminates duplicate columns. This style of query is used when the tables share a common attribute with a common name."
 

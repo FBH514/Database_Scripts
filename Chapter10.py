@@ -63,9 +63,9 @@ class Question_3(Chapter_10):
         self.chapter = 10
         self.chapter_name = "Transaction Management and Concurrency Control"
         self.numQuestions = 13
-        self.question = "What means that all parts of the transaction must be executed; otherwise, the transaction is aborted?"
+        self.question = "Which transaction property that requires all parts of a transaction to be treated as a single, indivisible, logical unit of work?"
         self.solution = "Atomicity"
-        self.description = "Atomicity means that all parts of the transaction must be executed; otherwise, the transaction is aborted. "
+        self.description = "Atomicity is a transaction property that requires all parts of a transaction to be treated as a single, indivisible, logical unit of work? All parts of a transaction must be completed or the entire transaction is aborted."
 
 class Question_4(Chapter_10):
 

@@ -223,7 +223,7 @@ class Main:
 
     # run the program
     def main(self):
-        print()
+        print("\n")
         print("Welcome to the Database Class Exam")
         self.question_count = 0
 
@@ -276,6 +276,7 @@ class Main:
                             print("Invalid input")
                             continue
                         break
+                    self.template.beautify(20)
                 break
 
             # self.template.beautify(len("No correction needed"))
@@ -294,6 +295,7 @@ class Main:
             elif run_again.casefold() == "N".casefold() or run_again.casefold() == "No".casefold():
                 print("** Ending Program **")
                 break
+        print("\n")
 
 
 if __name__ == "__main__":
