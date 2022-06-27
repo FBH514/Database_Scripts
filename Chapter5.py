@@ -85,9 +85,9 @@ class Question_5(Chapter_5):
         self.chapter = 5
         self.chapter_name = "Advanced Join Modeling"
         self.numQuestions = 10
-        self.question = "What are useful to represent M:N relationships and weak (strong identifying) entities?"
+        self.question = "What is a candidate key that consists of two or more attributes that together uniquely identify an entity occurrence?"
         self.solution = "Composite Keys"
-        self.description = "Composite keys are useful to represent M:N relationships and weak (strong identifying) entities."
+        self.description = "A composite key, in the context of relational databases, is a combination of two or more columns in a table that can be used to uniquely identify each row in the table. Uniqueness is only guaranteed when the columns are combined; when taken individually the columns do not guarantee uniqueness."
 
 class Question_6(Chapter_5):
 

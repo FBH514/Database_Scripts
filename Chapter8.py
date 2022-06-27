@@ -109,7 +109,7 @@ class Question_7(Chapter_8):
         self.chapter = 8
         self.chapter_name = "Advanced SQL"
         self.numQuestions = 10
-        self.question = "What may be used to generate values to be assigned to a record?"
+        self.question = "What may be used to number invoices automatically?"
         self.solution = "Sequences"
         self.description = "In Oracle and SQL Server, sequences may be used to generate values to be assigned to a record. For example, a sequence may be used to number invoices automatically. MS Access uses an AutoNumber data type to generate numeric sequences, and MySQL uses the AUTO_INCREMENT property during table creation. Oracle and SQL Server can use the Identity column property to designate the column that will have sequential numeric values automatically assigned to it. There can only be one Identity column per table."
 
