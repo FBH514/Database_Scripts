@@ -48,7 +48,7 @@ class Question_2(Chapter_13):
         self.chapter_name = "Business Intelligence and Data Warehouses"
         self.numQuestions = 8
         self.question = "What refers to an arrangement of computerized tools used to assist managerial decision making within a business?"
-        self.solution = "Decision support systems (DSSs)"
+        self.solution = "Decision Support Systems (DSSs)"
         self.description = "Decision support systems (DSSs) refer to an arrangement of computerized tools used to assist managerial decision making within a business. DSSs were the original precursor of current-generation BI systems."
 
 class Question_3(Chapter_13):
@@ -72,7 +72,7 @@ class Question_4(Chapter_13):
         self.chapter_name = "Business Intelligence and Data Warehouses"
         self.numQuestions = 8
         self.question = "What refers to an advanced data analysis environment that supports decision making, business modeling, and operations research?"
-        self.solution = "Online analytical processing (OLAP)"
+        self.solution = "Online Analytical Processing (OLAP)"
         self.description = "Online analytical processing (OLAP) refers to an advanced data analysis environment that supports decision making, business modeling, and operations research."
 
 class Question_5(Chapter_13):
@@ -84,7 +84,7 @@ class Question_5(Chapter_13):
         self.chapter_name = "Business Intelligence and Data Warehouses"
         self.numQuestions = 8
         self.question = "What is a subset of BI functionality that provides advanced data analysis tools to extract knowledge from business data?"
-        self.solution = "Data analytics"
+        self.solution = "Data Analytics"
         self.description = "Data analytics is a subset of BI functionality that provides advanced data analysis tools to extract knowledge from business data. Data analytics can be divided into explanatory and predictive analytics."
 
 class Question_6(Chapter_13):
@@ -96,7 +96,7 @@ class Question_6(Chapter_13):
         self.chapter_name = "Business Intelligence and Data Warehouses"
         self.numQuestions = 8
         self.question = "What focuses on discovering and explaining data characteristics and relationships?"
-        self.solution = "Explanatory analytics"
+        self.solution = "Explanatory Analytics"
         self.description = "Explanatory analytics focuses on discovering and explaining data characteristics and relationships."
 
 class Question_7(Chapter_13):
@@ -108,7 +108,7 @@ class Question_7(Chapter_13):
         self.chapter_name = "Business Intelligence and Data Warehouses"
         self.numQuestions = 8
         self.question = "What focuses on creating models to predict future outcomes or events based on the existing data?"
-        self.solution = "Predictive analytics"
+        self.solution = "Predictive Analytics"
         self.description = "Predictive analytics focuses on creating models to predict future outcomes or events based on the existing data."
 
 class Question_8(Chapter_13):
@@ -120,7 +120,7 @@ class Question_8(Chapter_13):
         self.chapter_name = "Business Intelligence and Data Warehouses"
         self.numQuestions = 8
         self.question = "What automates the analysis of operational data to find previously unknown data characteristics, relationships, dependencies, and trends?"
-        self.solution = "Data mining"
+        self.solution = "Data Mining"
         self.description = "Data mining automates the analysis of operational data to find previously unknown data characteristics, relationships, dependencies, and trends. The data-mining process has four phases: data preparation, data analysis and classification, knowledge acquisition, and prognosis."
 
 # class Question_9(Chapter_13):

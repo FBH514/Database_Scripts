@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7805fd1f-150f-458b-91bc-ff1ee96dd7de" name="Changes" comment="all chapters with a few bugs&#10;single chapter or mock exam mode stable">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter11.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter13.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter14.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter15.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter15.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter16.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter16.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +93,7 @@
       <workItem from="1656137910215" duration="3000" />
       <workItem from="1656175689057" duration="6992000" />
       <workItem from="1656197630845" duration="7025000" />
-      <workItem from="1656204717221" duration="29809000" />
+      <workItem from="1656204717221" duration="33996000" />
     </task>
     <task id="LOCAL-00001" summary="to merge with main">
       <created>1656131727310</created>
@@ -184,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656283610942</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="all chapters with a few bugs&#10;single chapter or mock exam mode stable">
+      <created>1656289747150</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1656289747150</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +219,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="all chapters with a few bugs&#10;single chapter or mock exam mode stable" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Database_Class__py_Scripts$main.coverage" NAME="main Coverage Results" MODIFIED="1656289735695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Database_Class__py_Scripts$main.coverage" NAME="main Coverage Results" MODIFIED="1656294966844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

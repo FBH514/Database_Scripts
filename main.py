@@ -210,10 +210,10 @@ class Main:
 
             elif style == "N".casefold():
                 chapter = self.user_input("Enter the chapter number you want to take ––> ")
-                if chapter.isdigit():
+                if chapter.isdigit() and int(chapter) in range(1, 17):
                     return int(chapter) - 1
                 else:
-                    print("Chapter must be an integer")
+                    print("Chapter must be an integer between 1 and 16")
                     continue
 
             else:

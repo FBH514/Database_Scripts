@@ -30,7 +30,7 @@ class Question_1(Chapter_15):
         self.chapter_name = "Database Connectivity and Web Technologies"
         self.numQuestions = 3
         self.question = "What refers to the mechanisms through which application programs connect and communicate with data repositories?"
-        self.solution = "Database connectivity"
+        self.solution = "Database Connectivity"
         self.description = "Database connectivity refers to the mechanisms through which application programs connect and communicate with data repositories. Database connectivity software is also known as database middleware."
 
 class Question_2(Chapter_15):
@@ -53,7 +53,7 @@ class Question_3(Chapter_15):
         self.chapter = 15
         self.chapter_name = "Database Connectivity and Web Technologies"
         self.numQuestions = 3
-        self.question = "What is a computing model that provides ubiquitous, on-demand access to a shared pool of configurable resources that can be rapidly provisioned."
+        self.question = "What is a computing model that provides ubiquitous, on-demand access to a shared pool of configurable resources that can be rapidly provisioned?"
         self.solution = "Cloud Computing"
         self.description = "Cloud computing is a computing model that provides ubiquitous, on-demand access to a shared pool of configurable resources that can be rapidly provisioned."
 

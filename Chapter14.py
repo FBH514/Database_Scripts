@@ -21,6 +21,7 @@ class Chapter_14(Template):
 
         question_list = [q1, q2, q3, q4]
         shuffle(question_list)
+        return question_list
 
 class Question_1(Chapter_14):
 
@@ -55,7 +56,7 @@ class Question_3(Chapter_14):
         self.chapter_name = "Big Data and NoSQL"
         self.numQuestions = 4
         self.question = "Which type of databases also store data in key-value pairs, but the data in the value component is an encoded document?"
-        self.solution = "Document databases"
+        self.solution = "Document Databases"
         self.description = "Document databases also store data in key-value pairs, but the data in the value component is an encoded document. The document must be encoded using tags, such as in XML or JSON. The DBMS is aware of the tags in the documents, which makes querying on tags possible. Document databases expect documents to be self- contained and relatively independent of each other."
 
 class Question_4(Chapter_14):
