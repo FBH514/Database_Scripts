@@ -37,16 +37,11 @@ from Chapter16 import Chapter_16
 
 class Main:
     def __init__(self):
-        # init the grade counter
-        self.grade_count = 0
+        self.grade_count = 0  # sets the grade counter to 0
+        self.question_count = 0  # sets the question counter to 0
+        self.template = Template()  # creates instance of Template class
 
-        # inits the question counter
-        self.question_count = 0
-
-        # create instance of Template class
-        self.template = Template()
-
-        # create instance of all Chapter classes
+        # lists all the chapters
         self.chapters = [Chapter_1(), Chapter_2(), Chapter_3(), Chapter_4(), Chapter_5(), Chapter_6(), Chapter_7(),
                          Chapter_8(), Chapter_9(), Chapter_10(), Chapter_11(), Chapter_12(), Chapter_13(), Chapter_14(),
                          Chapter_15(), Chapter_16()]
@@ -148,7 +143,6 @@ class Main:
                           Chapter11.Question_6(),
                           Chapter11.Question_7(),
                           Chapter11.Question_8(),
-                          Chapter11.Question_9(),
                           Chapter12.Question_1(),
                           Chapter12.Question_2(),
                           Chapter12.Question_3(),
@@ -283,8 +277,6 @@ class Main:
                     self.template.beautify(20)
                 break
 
-            # self.template.beautify(len("No correction needed"))
-
         item.numQuestions = self.question_count  # resets the final number of questions
         print(f"\nYou scored {self.grade_count}/{len(target)} ––> {item.grade(self.grade_count)}")
         self.template.beautify(20)
@@ -296,7 +288,7 @@ class Main:
                 self.question_count = 0
                 self.grade_count = 0
                 self.main()
-            elif run_again == "N".casefold() or run_again == "No".casefold():
+            elif "N".casefold() or "No".casefold():
                 print("** Ending Program **")
                 break
             else:
