@@ -268,10 +268,9 @@ class Main:
                             print(f"{self.template.compliments()} | +1 towards your grade")
                             self.grade_count += 1
                             item.grade(self.grade_count)
-                        elif correction == "N".casefold() or correction == "No".casefold():
+                        elif "N".casefold() or "No".casefold():
                             print("No correction needed")
                         else:
-                            print("Invalid input")
                             continue
                         break
                     self.template.beautify(20)
@@ -292,7 +291,6 @@ class Main:
                 print("** Ending Program **")
                 break
             else:
-                print("Invalid input")
                 continue
         print("\n")
 
